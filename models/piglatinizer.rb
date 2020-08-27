@@ -5,7 +5,7 @@ class PigLatinizer
     words = text.split(" ") # split string into individual parts
     # binding.pry
     if words.length == 1
-      piglatinize_word(words)
+      piglatinize_word(words[0])
     else
       piglatinize_sentance(words)
     end
